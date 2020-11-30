@@ -16,9 +16,13 @@ G is the number of generations that the game will undergo.
 T is the number of threads that OpenMP will use to execute the program.
 
 chmod 777 automata
+
 chmod 777 genmap
+
 ./genmap N filename
+
 gcc -Wall -std=c99 -o automata -fopenmp ompgame.c
+
 ./automata G N T filename
 
 ### Output:
