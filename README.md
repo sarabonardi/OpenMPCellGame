@@ -10,10 +10,10 @@ Otherwise, all cells will die in the next generation.
 ### How to Run the Program
 
 This game is made for a linux machine. To run it, enter the lines below in a command line.
-N represents the dimensions of the matrix to compute.
-filename is the name of the file that will be output by genmap and input to ompgame.c.
-G is the number of generations that the game will undergo.
-T is the number of threads that OpenMP will use to execute the program.
+N represents the dimensions of the matrix to compute,
+filename is the name of the file that will be output by genmap and input to ompgame.c,
+G is the number of generations that the game will undergo,
+and T is the number of threads that OpenMP will use to execute the program.
 
 chmod 777 automata
 
